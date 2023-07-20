@@ -121,12 +121,13 @@ const Contact = () => {
               name='message'
             ></textarea>
           </label>
-          <button type='submit' id='send' value='send' className='button'>
+          <input type='submit' id='send' value='send' />
+          {/* <button type='submit' id='send' value='send' className='button'>
             Send Message
             <span className='button__icon contact_button-icon'>
               <FiSend></FiSend>
             </span>
-          </button>
+          </button> */}
         </form>
       </div>
     </section>
