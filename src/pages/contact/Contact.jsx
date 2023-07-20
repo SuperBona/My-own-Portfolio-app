@@ -6,6 +6,33 @@ import {
 } from 'react-icons/fa'
 import { FiSend } from 'react-icons/fi'
 import './contact.css'
+/* import { toast } from 'react-toastify' */
+
+/* validateMail () {
+    let errors = {}
+    let formIsValid = true
+    if (!this.state.name || this.state.name.length < 3) {
+      errors.name = "I'd love it if your name was at least 3 characters long..."
+      toast.error(`${errors.name}`, {
+        position: toast.POSITION.TOP_LEFT      });
+      formIsValid = false
+    }if (!this.state.feedback || this.state.feedback.length < 10) {
+      errors.feedback = `C'mon, the body of your message should say SOMEthing!`
+      toast.error(`${errors.feedback}`);
+      formIsValid = false
+    }if (!this.state.email || this.state.email.length < 3) {
+      errors.email_1 = 'Your email address has got to have at least 3 characters.'
+      toast.error(`${errors.email_1}`);
+      formIsValid = false
+    }let pattern = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/if (!pattern.test(this.state.email)) {
+      errors.email_2 = 'Email addresses need an @ and a .com'
+      toast.error(`${errors.email_2}`);
+      formIsValid = false
+    }this.setState({
+      errors: errors
+    })
+}
+ */
 
 const Contact = () => {
   return (
@@ -51,31 +78,37 @@ const Contact = () => {
           </div>
         </div>
         <form
-          action='mailto:s.fioroni99@gmail.com'
+          action='https://formsubmit.co/s.fioroni99@gmail.com'
           method='post'
-          enctype='text/plain'
+          /* enctype='text/plain' */
           className='contact_form'
         >
           <div className='form_input-group'>
             <div className='form_input-div'>
               <input
                 type='text'
+                name='name'
                 placeholder='Your Name'
                 className='form_control'
+                required
               />
             </div>
             <div className='form_input-div'>
               <input
                 type='email'
+                name='email'
                 placeholder='Your Email'
                 className='form_control'
+                required
               />
             </div>
             <div className='form_input-div'>
               <input
                 type='text'
+                name='subject'
                 placeholder='Your Subject'
                 className='form_control'
+                required
               />
             </div>
           </div>
@@ -83,6 +116,8 @@ const Contact = () => {
             <textarea
               className='form_control textarea'
               placeholder='Your Message'
+              required
+              name='message'
             ></textarea>
           </div>
           <button className='button'>

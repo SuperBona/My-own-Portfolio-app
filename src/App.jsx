@@ -7,10 +7,12 @@ import About from './pages/about/About'
 import Portfolio from './pages/portfolio/Portfolio'
 import Contact from './pages/contact/Contact'
 import Themes from './components/Themes'
+/* import { ToastContainer } from 'react-toastify' */
 
 function App() {
   return (
     <BrowserRouter>
+      {/*   <ToastContainer position='top-center'></ToastContainer> */}
       <Navbar></Navbar>
       <Themes></Themes>
       <Routes>
