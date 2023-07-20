@@ -85,7 +85,7 @@ const Contact = () => {
           className='contact_form'
         >
           <div className='form_input-group'>
-            <label for='name' className='form_input-div'>
+            <div for='name' className='form_input-div'>
               <input
                 type='text'
                 name='name'
@@ -93,8 +93,8 @@ const Contact = () => {
                 className='form_control'
                 required
               />
-            </label>
-            <label for='email' className='form_input-div'>
+            </div>
+            <div for='email' className='form_input-div'>
               <input
                 type='email'
                 name='email'
@@ -103,7 +103,7 @@ const Contact = () => {
                 required
               />
             </label>
-            <label for='subject' className='form_input-div'>
+            <div for='subject' className='form_input-div'>
               <input
                 type='text'
                 name='subject'
@@ -111,7 +111,7 @@ const Contact = () => {
                 className='form_control'
                 required
               />
-            </label>
+            </div>
           </div>
           <div for='message' className='form_input-div'>
             <textarea
