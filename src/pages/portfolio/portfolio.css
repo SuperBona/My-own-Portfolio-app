@@ -165,9 +165,10 @@
 @media screen and (max-width: 570px) {
   .modal_list {
     grid-template-columns: 1fr;
-    margin-bottom: -3rem;
+    margin-bottom: 2rem;
   }
   .modal_img {
     margin-bottom: -1rem;
+    height: 200px;
   }
 }
