@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
         <form
           /* action='https://formsubmit.co/s.fioroni99@gmail.com' */
-          action='mailto:s.fioroni99@gmail.com'
+          action='https://formsublit.co/s.fioroni99@gmail.com'
           method='post'
           /* enctype='text/plain' */
           className='contact_form'
