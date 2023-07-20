@@ -78,13 +78,14 @@ const Contact = () => {
           </div>
         </div>
         <form
-          action='https://formsubmit.co/s.fioroni99@gmail.com'
+          /* action='https://formsubmit.co/s.fioroni99@gmail.com' */
+          action='mailto:s.fioroni99@gmail.com'
           method='post'
           /* enctype='text/plain' */
           className='contact_form'
         >
           <div className='form_input-group'>
-            <div className='form_input-div'>
+            <label for='name' className='form_input-div'>
               <input
                 type='text'
                 name='name'
@@ -92,8 +93,8 @@ const Contact = () => {
                 className='form_control'
                 required
               />
-            </div>
-            <div className='form_input-div'>
+            </label>
+            <label for='email' className='form_input-div'>
               <input
                 type='email'
                 name='email'
@@ -101,8 +102,8 @@ const Contact = () => {
                 className='form_control'
                 required
               />
-            </div>
-            <div className='form_input-div'>
+            </label>
+            <label for='subject' className='form_input-div'>
               <input
                 type='text'
                 name='subject'
@@ -110,17 +111,17 @@ const Contact = () => {
                 className='form_control'
                 required
               />
-            </div>
+            </label>
           </div>
-          <div className='form_input-div'>
+          <label for='message' className='form_input-div'>
             <textarea
               className='form_control textarea'
               placeholder='Your Message'
               required
               name='message'
             ></textarea>
-          </div>
-          <button className='button'>
+          </label>
+          <button type='submit' id='send' value='send' className='button'>
             Send Message
             <span className='button__icon contact_button-icon'>
               <FiSend></FiSend>
