@@ -113,14 +113,14 @@ const Contact = () => {
               />
             </label>
           </div>
-          <label for='message' className='form_input-div'>
+          <div for='message' className='form_input-div'>
             <textarea
               className='form_control textarea'
               placeholder='Your Message'
               required
               name='message'
             ></textarea>
-          </label>
+          </div>
           <button type='submit' id='send' value='send' className='button'>
             Send Message
             <span className='button__icon contact_button-icon'>
