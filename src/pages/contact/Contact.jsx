@@ -113,21 +113,21 @@ const Contact = () => {
               />
             </label>
           </div>
-          <label for='message' className='form_input-div'>
+          <div for='message' className='form_input-div'>
             <textarea
               className='form_control textarea'
               placeholder='Your Message'
               required
               name='message'
             ></textarea>
-          </label>
-          <input type='submit' id='send' value='send message' />
-          {/* <button type='submit' id='send' value='send' className='button'>
+          </div>
+          {/* <input type='submit' id='send' value='Send Message' /> */}
+          <button type='submit' id='send' value='send' className='button'>
             Send Message
             <span className='button__icon contact_button-icon'>
               <FiSend></FiSend>
             </span>
-          </button> */}
+          </button>
         </form>
       </div>
     </section>
