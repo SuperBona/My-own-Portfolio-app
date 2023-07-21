@@ -79,7 +79,7 @@ const Contact = () => {
         </div>
         <form
           /* action='https://formsubmit.co/s.fioroni99@gmail.com' */
-          action='mailto:s.fioroni99@gmail.com'
+          action='https://formsubmit.co/s.fioroni99@gmail.com'
           method='post'
           /* enctype='text/plain' */
           className='contact_form'
@@ -113,14 +113,15 @@ const Contact = () => {
               />
             </label>
           </div>
-          <label for='message' className='form_input-div'>
+          <div for='message' className='form_input-div'>
             <textarea
               className='form_control textarea'
               placeholder='Your Message'
               required
               name='message'
             ></textarea>
-          </label>
+          </div>
+          {/* <input type='submit' id='send' value='Send Message' /> */}
           <button type='submit' id='send' value='send' className='button'>
             Send Message
             <span className='button__icon contact_button-icon'>
