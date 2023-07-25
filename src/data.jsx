@@ -213,22 +213,21 @@ export const skills = [
 
   {
     id: 2,
-    title: 'Js',
+    title: 'Js & Vanilla Js',
     percentage: '',
   },
 
   {
     id: 3,
-    title: 'Vanilla Js',
+    title: 'React & Vite React',
     percentage: '',
   },
 
   {
     id: 5,
-    title: 'React & Vite React',
+    title: 'React Query',
     percentage: '',
   },
-
   {
     id: 6,
     title: 'React Router',
