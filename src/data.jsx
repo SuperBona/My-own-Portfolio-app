@@ -366,24 +366,28 @@ export const portfolio = [
     ],
   },
 
-  {
+   {
     id: 5,
     img: Work5,
     title: 'Social App',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
         desc: 'Website',
       },
       {
+        icon: <FiUser />,
         title: 'State : ',
         desc: 'Currently working on it',
       },
       {
+        icon: <FaCode />,
         title: 'Language : ',
         desc: 'Vite React',
       },
       {
+        icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: '<a target=”_blank” href="https://endearing-cuchufli-1e0434.netlify.app">https://endearing-cuchufli-1e0434.netlify.app</a>',
       },
