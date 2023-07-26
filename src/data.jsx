@@ -16,6 +16,7 @@ import Work4 from './assets/reactprojects-4.jpeg'
 import Work5 from './assets/social-5.jpeg'
 import Work6 from './assets/unsplash-6.jpeg'
 import Work7 from './assets/backroads-1.jpeg'
+import Work8 from './assets/contentful-7.jpeg'
 
 import Theme1 from './assets/purple.png'
 import Theme2 from './assets/red.png'
@@ -213,19 +214,19 @@ export const skills = [
 
   {
     id: 2,
-    title: 'Js',
+    title: 'Js & Vanilla Js',
     percentage: '',
   },
 
   {
     id: 3,
-    title: 'Vanilla Js',
+    title: 'React & Vite React',
     percentage: '',
   },
 
   {
     id: 5,
-    title: 'React & Vite React',
+    title: 'React Query',
     percentage: '',
   },
 
@@ -373,18 +374,22 @@ export const portfolio = [
     title: 'Social App',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
         desc: 'Website',
       },
       {
+        icon: <FiUser />,
         title: 'State : ',
         desc: 'Currently working on it',
       },
       {
+        icon: <FaCode />,
         title: 'Language : ',
         desc: 'Vite React',
       },
       {
+        icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: '<a target=”_blank” href="https://endearing-cuchufli-1e0434.netlify.app">https://endearing-cuchufli-1e0434.netlify.app</a>',
       },
@@ -442,6 +447,33 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: '<a target=”_blank” href="https://venerable-syrniki-800894.netlify.app">https://venerable-syrniki-800894.netlify.app</a>',
+      },
+    ],
+  },
+  {
+    id: 8,
+    img: Work8,
+    title: 'Contentful CMS',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      /*   {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      }, */
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Vite React',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '<a target=”_blank” href="https://neon-lamington-b2088c.netlify.app">https://neon-lamington-b2088c.netlify.app</a>',
       },
     ],
   },

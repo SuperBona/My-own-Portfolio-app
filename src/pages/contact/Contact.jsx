@@ -65,12 +65,14 @@ const Contact = () => {
           <div className='contact_socials'>
             <a
               href='https://github.com/SuperBona'
+              target='_blank'
               className='contact_social-link'
             >
               <FaGithub></FaGithub>
             </a>
             <a
               href='https://www.linkedin.com/in/silvia-fioroni-2423aa202/'
+              target='_blank'
               className='contact_social-link'
             >
               <FaLinkedin></FaLinkedin>
