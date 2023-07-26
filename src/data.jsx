@@ -229,7 +229,6 @@ export const skills = [
     title: 'React Query',
     percentage: '',
   },
-
   {
     id: 6,
     title: 'React Router',
@@ -368,7 +367,7 @@ export const portfolio = [
     ],
   },
 
-  {
+   {
     id: 5,
     img: Work5,
     title: 'Social App',
