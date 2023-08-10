@@ -318,11 +318,7 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Website',
       },
-      /*  {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      }, */
+
       {
         icon: <FaCode />,
         title: 'Built with : ',
