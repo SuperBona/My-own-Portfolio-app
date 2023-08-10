@@ -273,7 +273,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js - moving to Vite React',
       },
       {
@@ -301,7 +301,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js',
       },
       {
@@ -329,7 +329,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js',
       },
       {
@@ -362,7 +362,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
     ],
@@ -385,7 +385,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
@@ -413,7 +413,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
@@ -440,7 +440,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js',
       },
       {
@@ -467,7 +467,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
@@ -494,7 +494,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
