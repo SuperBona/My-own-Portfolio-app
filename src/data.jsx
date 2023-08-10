@@ -17,7 +17,7 @@ import Work5 from './assets/social-5.jpeg'
 import Work6 from './assets/unsplash-6.jpeg'
 import Work7 from './assets/backroads-1.jpeg'
 import Work8 from './assets/contentful-7.jpeg'
-import Work9 from './assets/mixmaster.jpg'
+import Work9 from './assets/mixmaster-8.jpg'
 
 import Theme1 from './assets/purple.png'
 import Theme2 from './assets/red.png'
