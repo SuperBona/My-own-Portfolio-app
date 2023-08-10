@@ -17,6 +17,7 @@ import Work5 from './assets/social-5.jpeg'
 import Work6 from './assets/unsplash-6.jpeg'
 import Work7 from './assets/backroads-1.jpeg'
 import Work8 from './assets/contentful-7.jpeg'
+import Work9 from './assets/mixmaster.jpg'
 
 import Theme1 from './assets/purple.png'
 import Theme2 from './assets/red.png'
@@ -473,6 +474,33 @@ export const portfolio = [
         icon: <FiExternalLink />,
         title: 'Preview : ',
         desc: '<a target=”_blank” href="https://neon-lamington-b2088c.netlify.app">https://neon-lamington-b2088c.netlify.app</a>',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work9,
+    title: 'MixMaster',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      /*   {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      }, */
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Vite React',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '<a target=”_blank” href="https://tiny-kringle-2b830a.netlify.app">https://tiny-kringle-2b830a.netlify.app</a>',
       },
     ],
   },
