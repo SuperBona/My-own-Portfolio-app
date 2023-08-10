@@ -17,7 +17,7 @@ import Work5 from './assets/social-5.jpeg'
 import Work6 from './assets/unsplash-6.jpeg'
 import Work7 from './assets/backroads-1.jpeg'
 import Work8 from './assets/contentful-7.jpeg'
-import Work9 from './assets/mixmaster-8.jpeg'
+import Work9 from './assets/mixmaster-8.jpg'
 
 import Theme1 from './assets/purple.png'
 import Theme2 from './assets/red.png'
@@ -273,7 +273,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js - moving to Vite React',
       },
       {
@@ -294,14 +294,10 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Website',
       },
-      /*  {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      }, */
+
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js',
       },
       {
@@ -329,7 +325,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js',
       },
       {
@@ -362,7 +358,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
     ],
@@ -385,7 +381,7 @@ export const portfolio = [
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
@@ -413,7 +409,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
@@ -440,7 +436,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Html, Css, Js',
       },
       {
@@ -467,7 +463,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
@@ -494,7 +490,7 @@ export const portfolio = [
       }, */
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Built with : ',
         desc: 'Vite React',
       },
       {
