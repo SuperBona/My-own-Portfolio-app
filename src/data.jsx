@@ -279,7 +279,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://extraordinary-pithivier-777fb7.netlify.app">https://extraordinary-pithivier-777fb7.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://extraordinary-pithivier-777fb7.netlify.app">Click here</a>',
       },
     ],
   },
@@ -303,7 +303,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://heartfelt-marzipan-0522fc.netlify.app">https://heartfelt-marzipan-0522fc.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://heartfelt-marzipan-0522fc.netlify.app">Click here</a>',
       },
     ],
   },
@@ -327,7 +327,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://imaginative-platypus-083306.netlify.app">https://imaginative-platypus-083306.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://imaginative-platypus-083306.netlify.app">Click here</a>',
       },
     ],
   },
@@ -350,7 +350,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://github.com/SuperBona/React-fundamental-projects">https://github.com/SuperBona/React-fundamental-projects</a>',
+        desc: '<a target=”_blank” href="https://github.com/SuperBona/React-fundamental-projects">Click here</a>',
       },
       {
         icon: <FaCode />,
@@ -383,7 +383,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://endearing-cuchufli-1e0434.netlify.app">https://endearing-cuchufli-1e0434.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://endearing-cuchufli-1e0434.netlify.app">Click here</a>',
       },
     ],
   },
@@ -411,7 +411,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://tubular-dango-81e56b.netlify.app">https://tubular-dango-81e56b.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://tubular-dango-81e56b.netlify.app">Click here</a>',
       },
     ],
   },
@@ -438,7 +438,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://venerable-syrniki-800894.netlify.app">https://venerable-syrniki-800894.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://venerable-syrniki-800894.netlify.app">Click here</a>',
       },
     ],
   },
@@ -465,7 +465,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://neon-lamington-b2088c.netlify.app">https://neon-lamington-b2088c.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://neon-lamington-b2088c.netlify.app">Click here</a>',
       },
     ],
   },
@@ -492,7 +492,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://tiny-kringle-2b830a.netlify.app">https://tiny-kringle-2b830a.netlify.app</a>',
+        desc: '<a target=”_blank” href="https://tiny-kringle-2b830a.netlify.app">Click here</a>',
       },
     ],
   },
