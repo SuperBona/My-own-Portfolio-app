@@ -1,4 +1,10 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+  createBrowserRouter,
+  RouterProvider,
+} from 'react-router-dom'
 
 import './App.css'
 import Navbar from './components/Navbar'
@@ -12,7 +18,6 @@ import Themes from './components/Themes'
 function App() {
   return (
     <BrowserRouter>
-      {/*   <ToastContainer position='top-center'></ToastContainer> */}
       <Navbar></Navbar>
       <Themes></Themes>
       <Routes>

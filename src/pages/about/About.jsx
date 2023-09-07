@@ -36,12 +36,12 @@ const About = () => {
 
       <div className='separator'></div>
 
-      <sextion className='skills'>
+      <section className='skills'>
         <h3 className='section_subtitle subtitle_center'>My Skills</h3>
         <div className='skills_container grid'>
           <Skills></Skills>
         </div>
-      </sextion>
+      </section>
       <div className='separator'></div>
       <section className='resume'>
         <h3 className='section_subtitle subtitle_center'>
