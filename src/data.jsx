@@ -340,7 +340,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Websites',
+        desc: 'Web app',
       },
       {
         icon: <FiUser />,
@@ -368,7 +368,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Web app',
       },
       {
         icon: <FiUser />,
@@ -396,7 +396,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Web app',
       },
       /* {
         icon: <FiUser />,
@@ -450,7 +450,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Web app',
       },
       /*   {
         icon: <FiUser />,
@@ -477,7 +477,7 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Web app',
       },
       /*   {
         icon: <FiUser />,
