@@ -1,10 +1,5 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-  createBrowserRouter,
-  RouterProvider,
-} from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+/* createBrowserRouter, RouterProvider */
 
 import './App.css'
 import Navbar from './components/Navbar'

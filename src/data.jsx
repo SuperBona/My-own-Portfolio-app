@@ -284,7 +284,7 @@ export const portfolio = [
     ],
   },
 
-  {
+  /* {
     id: 2,
     img: Work2,
     title: 'Tea Station',
@@ -306,7 +306,7 @@ export const portfolio = [
         desc: '<a target=”_blank” href="https://heartfelt-marzipan-0522fc.netlify.app">Click here</a>',
       },
     ],
-  },
+  }, */
 
   {
     id: 3,
