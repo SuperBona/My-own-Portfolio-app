@@ -73,6 +73,9 @@ const App = () => {
 }
 
 ///// APP BrowserRouter
+{
+  /* <Router basename="/#"></Router> */
+}
 
 /* function App() {
   return (
