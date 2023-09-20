@@ -42,18 +42,22 @@ const router = createBrowserRouter([
       {
         index: true,
         element: <Home></Home>,
+        errorElement: <Error></Error>,
       },
       {
         path: '/about',
         element: <About></About>,
+        errorElement: <Error></Error>,
       },
       {
         path: '/portfolio',
         element: <Portfolio></Portfolio>,
+        errorElement: <Error></Error>,
       },
       {
         path: '/contact',
         element: <Contact></Contact>,
+        errorElement: <Error></Error>,
       },
     ],
   },

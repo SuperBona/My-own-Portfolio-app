@@ -10,7 +10,7 @@ const Error = () => {
         <div>
           <h3>Ohh! </h3>
           <p>I can't find the page you're looking for</p>
-          {/* <Link to='/'>back home</Link> */}
+          <Link to='/'>back home</Link>
         </div>
       </Wrapper>
     )
