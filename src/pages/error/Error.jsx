@@ -6,13 +6,30 @@ const Error = () => {
   /* console.log(error) */
   if (error.status === 404) {
     return (
-      <Wrapper>
-        <div>
-          <h3>Ohh! </h3>
-          <p>I can't find the page you're looking for</p>
-          <Link to='/'>back home</Link>
-        </div>
-      </Wrapper>
+      <>
+        <Wrapper
+        /* onClick={() => {
+            console.log('Wrapper')
+          }} */
+        >
+          <div
+          /* onClick={() => {
+              console.log('div')
+            }} */
+          >
+            <h3>Ohh! </h3>
+            <p>I can't find the page you're looking for</p>
+            <Link
+              to='/'
+              onClick={() => {
+                console.log('link')
+              }}
+            >
+              back home
+            </Link>
+          </div>
+        </Wrapper>
+      </>
     )
   }
   return (
@@ -47,6 +64,7 @@ const Wrapper = styled.div`
     background-color: var(--first-color);
     padding: 0.2rem 0.5rem;
     border-radius: 10px;
+    position: inherit;
   }
   div {
     margin-top: -3rem;
@@ -64,6 +82,9 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     top: -1.5rem;
     left: -1.5rem;
+  }
+  Link {
+    position: inherit;
   }
 `
 
