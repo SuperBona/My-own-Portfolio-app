@@ -136,3 +136,8 @@ const Contact = () => {
   )
 }
 export default Contact
+
+/* value - for user; autocomplete - browser; it doesn't affect the value, it's like the browser fill it not the user.
+Is it autofill or autocomplete?
+Autocomplete is a browser feature that suggests possible values for a form field based on the user's previous input or the field's name. Autofill is a browser feature that automatically fills out form fields with the user's stored data, such as name, address, email, or credit card number
+autocomplete try to set everything on one click; values are stored on the back end side. so it can be problematic. fill form, save it, it will be fired the action on the backend side, but sometimes actions are called from input side and it became problematic */

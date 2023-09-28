@@ -18,6 +18,7 @@ import Work6 from './assets/unsplash-6.jpeg'
 import Work7 from './assets/backroads-1.jpeg'
 import Work8 from './assets/contentful-7.jpeg'
 import Work9 from './assets/mixmaster-8.jpg'
+import Work10 from './assets/comfy.jpeg'
 
 import Theme1 from './assets/purple.png'
 import Theme2 from './assets/red.png'
@@ -221,26 +222,26 @@ export const skills = [
 
   {
     id: 3,
-    title: 'React & Vite React',
+    title: 'React & Vite',
     percentage: '',
   },
 
-  {
+  /*   {
     id: 5,
     title: 'React Query',
     percentage: '',
-  },
-  {
+  }, */
+  /* {
     id: 6,
     title: 'React Router',
     percentage: '',
-  },
+  }, */
 
-  {
+  /*  {
     id: 7,
     title: 'Axios',
     percentage: '',
-  },
+  }, */
 
   {
     id: 4,
@@ -250,12 +251,39 @@ export const skills = [
 
   {
     id: 8,
-    title: 'GitHub & GitBash',
+    title: 'Git & GitHub',
     percentage: '',
   },
 ]
 
 export const portfolio = [
+  {
+    id: 0,
+    img: Work10,
+    title: 'Comfy store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'E-commerce',
+      },
+      /* {
+        icon: <FiUser />,
+        title: 'Status : ',
+        desc: 'Currently working on it',
+      }, */
+      {
+        icon: <FaCode />,
+        title: 'Built with : ',
+        desc: 'React',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '<a target=”_blank” href="https://fastidious-donut-62adbe.netlify.app">Click here</a>',
+      },
+    ],
+  },
   {
     id: 1,
     img: Work1,
@@ -310,52 +338,55 @@ export const portfolio = [
 
   {
     id: 3,
-    img: Work3,
-    title: 'Generic Portfolio',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
-      },
-
-      {
-        icon: <FaCode />,
-        title: 'Built with : ',
-        desc: 'Html, Css, Js',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://imaginative-platypus-083306.netlify.app">Click here</a>',
-      },
-    ],
-  },
-
-  {
-    id: 4,
-    img: Work4,
-    title: 'Different React Projects',
+    img: Work9,
+    title: 'MixMaster',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
         desc: 'Web app',
       },
-      {
+      /*   {
         icon: <FiUser />,
-        title: 'Previews : ',
-        desc: 'On my Github, Readme.md',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://github.com/SuperBona/React-fundamental-projects">Click here</a>',
-      },
+        title: 'Client : ',
+        desc: 'Dribble',
+      }, */
       {
         icon: <FaCode />,
         title: 'Built with : ',
         desc: 'Vite React',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '<a target=”_blank” href="https://tiny-kringle-2b830a.netlify.app">Click here</a>',
+      },
+    ],
+  },
+  {
+    id: 4,
+    img: Work6,
+    title: 'Unsplash img',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Web app',
+      },
+      /* {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      }, */
+      {
+        icon: <FaCode />,
+        title: 'Built with : ',
+        desc: 'Vite React',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '<a target=”_blank” href="https://tubular-dango-81e56b.netlify.app">Click here</a>',
       },
     ],
   },
@@ -387,63 +418,36 @@ export const portfolio = [
       },
     ],
   },
-
   {
     id: 6,
-    img: Work6,
-    title: 'Unsplash img',
+    img: Work4,
+    title: 'Different React Projects',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
         desc: 'Web app',
       },
-      /* {
+      {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      }, */
+        title: 'Previews : ',
+        desc: 'On my Github, Readme.md',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '<a target=”_blank” href="https://github.com/SuperBona/React-fundamental-projects">Click here</a>',
+      },
       {
         icon: <FaCode />,
         title: 'Built with : ',
         desc: 'Vite React',
       },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://tubular-dango-81e56b.netlify.app">Click here</a>',
-      },
     ],
   },
+
   {
     id: 7,
-    img: Work7,
-    title: 'Backroads',
-    details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      /*   {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      }, */
-      {
-        icon: <FaCode />,
-        title: 'Built with : ',
-        desc: 'Html, Css, Js',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://venerable-syrniki-800894.netlify.app">Click here</a>',
-      },
-    ],
-  },
-  {
-    id: 8,
     img: Work8,
     title: 'Contentful CMS',
     details: [
@@ -470,14 +474,14 @@ export const portfolio = [
     ],
   },
   {
-    id: 9,
-    img: Work9,
-    title: 'MixMaster',
+    id: 8,
+    img: Work7,
+    title: 'Backroads',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Web app',
+        desc: 'Website',
       },
       /*   {
         icon: <FiUser />,
@@ -487,12 +491,35 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Built with : ',
-        desc: 'Vite React',
+        desc: 'Html, Css, Js',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: '<a target=”_blank” href="https://tiny-kringle-2b830a.netlify.app">Click here</a>',
+        desc: '<a target=”_blank” href="https://venerable-syrniki-800894.netlify.app">Click here</a>',
+      },
+    ],
+  },
+  {
+    id: 9,
+    img: Work3,
+    title: 'Generic Portfolio',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+
+      {
+        icon: <FaCode />,
+        title: 'Built with : ',
+        desc: 'Html, Css, Js',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: '<a target=”_blank” href="https://imaginative-platypus-083306.netlify.app">Click here</a>',
       },
     ],
   },
